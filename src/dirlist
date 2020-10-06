@@ -1,0 +1,16 @@
+#!/usr/bin/env -S java --source 11
+
+import static java.lang.System.out;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class DirectoryLister {
+
+    public static void main(String[] args) throws Exception {
+        var dirName = ".";
+        if (args.length > 0 ){
+            dirName = args[0];
+        } 
+        Files.walk(Paths.get(dirName)).forEach(out::println);       
+      }
+}
