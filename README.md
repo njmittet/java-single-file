@@ -1,4 +1,4 @@
-# single-file-java
+# java-single-file
 
 The [JEP 330: Launch Single-File Source-Code Programs](https://openjdk.java.net/jeps/330) was introduced in Java 11 and provides the ability to run a Java single-file source code directly without any compilation.
 
