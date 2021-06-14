@@ -73,8 +73,8 @@ chmod +x <Filename>.<Extension>
 Run the example with:
 
 ```BASH
-$ chmod +x dirlist
-$ ./dirlist
+chmod +x dirlist
+./dirlist
 ```
 
 ## Credits
